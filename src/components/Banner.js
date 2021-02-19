@@ -7,6 +7,11 @@ import {
   FaPlay
 } from "react-icons/fa";
 const Banner = () => {
+  const [state] = React.useState({
+    title: "I'm Mohamed Khalil Dhaher",
+    text: "I am enthusiastic software engineer I have serious passion for coding animations and creating intuitive dynamic user experiences who specialized in front end and back end development graduated from RBK Tunisia as Software engineer working as full stack developer ",
+    image:"/assets/khalildh.png"
+  })
   return (
     <header className="header">
       <div className="container">
@@ -28,14 +33,8 @@ const Banner = () => {
                     <FaInstagram />
                   </li>
                 </ul>
-                <h1>I'm Mohamed Khalil Dhaher</h1>
-                <p>
-                  I'm enthusiastic software engineer I have serious passion for
-                  coding, animations and creating intuitive, dynamic user
-                  experiences who specialized in front end and back end
-                  development graduated from RBK Tunisia as Software engineer
-                  working as full stack developer .
-                </p>
+                <h1>{state.title}</h1>
+                <p>{state.text}</p>
                 <div className="header__buttons">
                   <a href="" className="btn-outline">
                     My portfolio
@@ -50,7 +49,7 @@ const Banner = () => {
           </div>
           <div className="col-6">
             <div className="banner__img">
-              <img src="/assets/khalildh.png" alt="man" />
+              <img src={state.image} alt="man" />
             </div>
           </div>
         </div>
