@@ -1,0 +1,153 @@
+{
+  "main": {
+    "name":"Hello, I'm Mohamed Khalil Dhaher",
+    "description":"I'm a full-stack developer and I use react js and mongodb to develop pages.",
+    "image":"khalil.jpg",
+    "bio":"I'm enthusiastic software engineer I have serious passion for coding, animations and creating intuitive, dynamic user experiences who specialized in front end and back end development graduated from RBK Tunisia as Software engineer working as full stack developer ",
+    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "dhaherkhalil91@gmail.com",
+    "phone": "53383798",
+    "github":"https://github.com/nordicgiant2/react-nice-resume",
+    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "address":{
+      "street":"74 street sadok mkaddem",
+      "city":"Ezzahra",
+      "state":"Ben arous",
+      "zip": "2034"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"http://timbakerdev.com",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"http://twitter.com",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/tbaker_x",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"This is my skills",
+    "education":[
+      {
+        "school":"csfsop sousse",
+        "degree":"senior technician in mécatronique",
+        "graduated":"2015",
+        "description":"I had knowledge of programming, numerical control and maintenance of electronic boards"
+      },
+      {
+        "school":"sadiki",
+        "degree":"mathematical baccalaureat",
+        "graduated":"2009/2010",
+        "description":"that was cool and i improved my logic in math"
+      },
+      {
+        "school":"RBK",
+        "degree":"full-stack developer",
+        "graduated":"2021",
+        "description":"that was a great experience, i improved a lot of skills, i have a good knowledge of computer since and i feel more professional and responsible, I have more confidence "
+      }
+    ],
+    "work":[
+      {
+        "company":"Awesome Design Studio",
+        "title":"Senior UX God ",
+        "years":"March 2010 - Present",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      },
+      {
+        "company":"Super Cool Studio",
+        "title":"Junior bug fixer",
+        "years":"March 2007 - February 2010",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Angular",
+        "level":"50%"
+      },
+      {
+        "name":"VueJs",
+        "level":"50%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"65%"
+      },
+      {
+        "name":"CSS",
+        "level":"20%"
+      },
+      {
+        "name":"Node.js",
+        "level":"65%"
+      },
+      {
+        "name":"Express.js",
+        "level":"70%"
+      },
+      {
+        "name":"mongoDB",
+        "level":"80%"
+      },
+      {
+        "name":"Javascript",
+        "level":"70%" 
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"canadian-wanderlust.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"Fury Fighting Gear",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"fury-fighting-gear.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"original-thai-food.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"resume-website.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Smirkspace",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"smirkspace.jpg",
+        "url":"http://www.smirkspace.com"
+      }
+    ]
+  }
+}
