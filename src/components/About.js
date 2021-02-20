@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   const [header] = React.useState({
     subHeader: "About Me",
-    text: "simply dummy text"
+    text: "This is all you want to know about me"
   });
   const [state] = React.useState([
     { id: 1, title: "Name:", text: "Mohamed khalil Dhaher" },

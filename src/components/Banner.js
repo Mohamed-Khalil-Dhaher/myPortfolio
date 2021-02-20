@@ -9,9 +9,9 @@ import {
 const Banner = () => {
   const [state] = React.useState({
     title: "I'm Mohamed Khalil Dhaher",
-    text: "I am enthusiastic software engineer I have serious passion for coding animations and creating intuitive dynamic user experiences who specialized in front end and back end development graduated from RBK Tunisia as Software engineer working as full stack developer ",
-    image:"/assets/khalildh.png"
-  })
+    text: "I am a full-stack developer",
+    image: "/assets/khalildh.png"
+  });
   return (
     <header className="header">
       <div className="container">

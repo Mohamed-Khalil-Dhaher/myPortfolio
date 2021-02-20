@@ -12,44 +12,42 @@ const Services = () => {
   const [header] = React.useState({
     mainHeader: "SERVICES",
     subHeading: "My Services",
-    text: "is simply dummy text"
+    text: "This is what i can offer you"
   });
   const [state] = React.useState([
     {
       id: 1,
       icon: "FaGithub",
       heading: "Web Development",
-      text: "simply dummy text"
+      text:
+        "building and maintenance of websites, i do the work that happens behind the scenes to make a website look great"
     },
     {
       id: 2,
       icon: "FaCamera",
       heading: "Photography",
-      text: "simply dummy text"
+      text: "I like capturing light with a camera or a phone"
     },
     {
       id: 3,
       icon: "FaCircleNotch",
       heading: "Web Design",
-      text: "simply dummy text"
+      text:
+        "I work on the appearance, layout, and, in some cases, content of a website"
     },
     {
       id: 4,
       icon: "FaApple",
       heading: "App Development",
-      text: "simply dummy text"
+      text:
+        "the process of creating a computer program or a set of programs to perform the different tasks that a business requires"
     },
     {
       id: 5,
       icon: "FaFileVideo",
       heading: "Video Editing",
-      text: "simply dummy text"
-    },
-    {
-      id: 6,
-      icon: "FaSearchDollar",
-      heading: "SEO Expert",
-      text: "simply dummy text"
+      text:
+        "The first thing you need to know is that desktop video editing apps are great options. In fact, I usually edit my own videos on my desktop"
     }
   ]);
   return (
