@@ -289,3 +289,11 @@ textarea {
   margin: 20px auto;
   text-align: center;
 }
+.education {
+  background: black;
+  text-align: center;
+}
+.education__title {
+  color: black;
+  text-align: center;
+}

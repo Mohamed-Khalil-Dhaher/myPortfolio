@@ -6,6 +6,7 @@ import Nav from "./components/Nav";
 import Services from "./components/Services";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Education from "./components/Education";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Banner />
       <Services />
       <About />
+      <Education />
       <Contact />
     </div>
   );
